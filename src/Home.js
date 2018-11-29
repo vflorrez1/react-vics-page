@@ -16,7 +16,8 @@ export default class Home extends Component {
           <Link to="/">Home</Link>
           <Link to="/cv">CV</Link>
           <Link to="#">Skills</Link>
-          <Link to="#">Hobbies</Link> 
+          <Link to="/hobbies">Hobbies</Link>
+          <Link to="#">Projects</Link>  
           </div>
   
           <div class="row">
@@ -38,6 +39,7 @@ export default class Home extends Component {
             <div className="bot">contact num</div>
             <div className="bot">linkedin</div>
             <div className="bot">gitty</div>
+            <div className="bot">kodiri</div>
           </div>
           </div>
 
