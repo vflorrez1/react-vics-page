@@ -25,16 +25,19 @@ export default class Home extends Component {
             </div>
             <div class="column">
               <h2>About me</h2>
-              <p> I am a recently graduated from the Univerity of York with a Mathematics degree, however I have always had a big interest in coding and automation. I began coding in Java during my time at University and quickly realised how much I enjoyed it, the satisfaction of solving a problem really entrigued me so I began to look for methods to teach myself and decided to join a bootcamp to improve my current set of skills. </p>
+              <p> I have recently graduated from the Univerity of York with a Mathematics degree, however I have always had a big interest in coding and automation. I began coding in Java during my time at University and quickly realised how much I enjoyed it, the satisfaction of solving a problem really entrigued me so I began to look for methods to teach myself and decided to join a bootcamp to improve my current set of skills. </p>
             </div>
             <div class="column">
               <h2>Current work</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+              <p> Currently enrolled at a Web Development Bootcamp "Kodiri" which is run by an experienced Web Developer "Ricardo Mallols". The course finishes on the 21st of December, throught the course I will be understanding the React framework as well constantly developing in Javascript HTML5 and CSS3. As well as working with the fundemental tools of Web Developemnt I will also be working in an Agil enviroment and working in group projects. Along with these skills we will also be deploying our first projects and implementing javascript in the backend. </p>
             </div>
           </div>
   
           <div class="footer">
-            <h2>Footer</h2>
+            <div className="bot">email</div>
+            <div className="bot">contact num</div>
+            <div className="bot">linkedin</div>
+            <div className="bot">gitty</div>
           </div>
           </div>
 
