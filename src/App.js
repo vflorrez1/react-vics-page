@@ -14,9 +14,7 @@ class App extends Component {
     return (
       <div className="App">
           <Route exact path="/" component={Home} />
-          <Route exact path="/cv" component={Cv} />
-          <Route exact path="/react-vics-page/test" component={Test} />
-    
+          <Route exact path="/cv" component={Cv} />    
       </div>
 
     )
