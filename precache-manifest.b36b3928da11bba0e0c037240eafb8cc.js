@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/react-vics-page/static/js/runtime~main.3914ffd3.js"
   },
   {
-    "revision": "ca61d6108debe55b2f41",
-    "url": "/react-vics-page/static/js/main.ca61d610.chunk.js"
+    "revision": "3984e060a15f38da4f2b",
+    "url": "/react-vics-page/static/js/main.3984e060.chunk.js"
   },
   {
-    "revision": "cc3007336d4797b2ad11",
-    "url": "/react-vics-page/static/js/1.cc300733.chunk.js"
+    "revision": "390afece64f706a61422",
+    "url": "/react-vics-page/static/js/1.390afece.chunk.js"
   },
   {
-    "revision": "ca61d6108debe55b2f41",
-    "url": "/react-vics-page/static/css/main.f094d0ea.chunk.css"
+    "revision": "3984e060a15f38da4f2b",
+    "url": "/react-vics-page/static/css/main.d412f498.chunk.css"
   },
   {
-    "revision": "180675cedff9230d641700e063da4064",
+    "revision": "d96ff4e0ef22680d45b8e7db587e7f5d",
     "url": "/react-vics-page/index.html"
   }
 ];
