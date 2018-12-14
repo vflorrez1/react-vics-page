@@ -12,7 +12,8 @@ export default class Cv extends Component {
                     <Link to="/">Home</Link>
                     <Link to="/cv">CV</Link>
                     <Link to="#">Skills</Link>
-                    <Link to="#">Hobbies</Link>
+                    <Link to="/hobbies">Hobbies</Link>
+                    <Link to="/projects">Projects</Link>
                 </div>
 
                 <div class="content">

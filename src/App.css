@@ -10,12 +10,8 @@ body {
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1; 
-  
-  
-  
 }
 
-/* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
@@ -76,7 +72,6 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -99,7 +94,7 @@ img {
   color: white
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width:1000px) {
     .column {
         width: 100%;

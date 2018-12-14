@@ -1,0 +1,11 @@
+.gridContainer{
+    display: flex;
+    width: 80%;
+}
+.kid {
+flex: 1;
+text-align: center;
+border: 5px;
+border-color: black;
+border-style: solid;
+}
