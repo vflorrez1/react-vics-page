@@ -22,7 +22,7 @@ export default class Home extends Component {
   
           <div class="row">
             <div class="column">
-              <img src={me} alt="me"></img>
+              <img className="images" src={me} alt="me"></img>
             </div>
             <div class="column">
               <h2>About me</h2>

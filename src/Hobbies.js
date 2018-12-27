@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Stateless from './Stateless.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faStar, faStarHalf, faStarAndCrescent } from '@fortawesome/free-solid-svg-icons'
-
+import github from './icons/githubIcon.svg'
 
 
 
@@ -22,6 +22,7 @@ export default class Hobbies extends Component {
           <Stateless props_1="hey" />
           <FontAwesomeIcon icon={faStar} />
           <FontAwesomeIcon icon={faStar} color="red" />
+          <img src={github} alt="me"></img>
         </div>
       </div>
 

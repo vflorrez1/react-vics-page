@@ -1,0 +1,53 @@
+* {
+    min-height: 0;
+    min-width: 0;
+  }
+  
+.carouselContainer {
+    margin: 0 auto;
+    padding: 7%;
+    width: 80%;
+    color: #333;
+    background: #333;
+    height: auto;
+  }
+ .kodflixImg {
+     opacity: 0.2;
+     width: 100%;
+     
+ }
+ .texty {
+     top: 40%;
+     color: aliceblue;
+     display: flex;
+     position: absolute;
+     margin: 0 auto;
+     padding: 10%;
+     height: 50%;
+     width: auto;
+ }
+ .iconText {
+    text-decoration: indigo;
+ }
+ .faicons {
+     padding: 1%;
+     flex: 1;
+     width: 20%;
+     height: auto;
+ }
+ /* <a href="Resources/Resume.pdf" download=""> </a> */
+
+.caraBox {
+    box-align: center;
+    text-align: center;
+    position: relative;
+    /* display: flex; */
+}
+
+h2 {
+text-align: center;
+color: white;
+}
+h3 {
+text-align: center;
+}
