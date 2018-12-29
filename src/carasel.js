@@ -24,43 +24,53 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="carouselContainer">
-        <h2> My Projects</h2>
-        <Slider {...settings}>
-          <div className="slideContainer">
-            <div className="caraBox">
-              <img className="kodflixImg" src={kody} alt="kodflix"></img>
-              <a className="texty"href="https://github.com/vflorrez1/kodflix/" target="_black"> 
-                <img src={github} className="faicons" alt="me"></img>
-                <img src={react} className="faicons" alt="me"></img>
-                <img src={jsicon} className="faicons" alt="me"></img>
-                <img src={css} className="faicons" alt="me"></img>
-                <img src={node} className="faicons" alt="me"></img>
+      <div className="caraGrandad">
+        <h2 className="caraTitle"> My Projects</h2>
+        <div className="carouselContainer">
+          <Slider {...settings}>
+            <div className="slideContainer">
+              <div className="caraBox">
+                <img className="kodflixImg" src={kody} alt="kodflix"></img>
+                <div className="ProjTitle">
+                  Kodflix
+                </div>
+                <a className="texty" href="https://github.com/vflorrez1/kodflix/" target="_black">
+                  <img src={github} className="faicons" alt="me"></img>
+                  <img src={react} className="faicons" alt="me"></img>
+                  <img src={jsicon} className="faicons" alt="me"></img>
+                  <img src={css} className="faicons" alt="me"></img>
+                  <img src={node} className="faicons" alt="me"></img>
                 </a>
+              </div>
             </div>
-          </div>
-          <div className="slideContainer">
-            <div className="caraBox">
-              <img className="kodflixImg" src={stock} alt="kodflix"></img>
-              <a className="texty" href="https://github.com/vflorrez1/spotify-siftr" target="_black">
-                <img src={github} className="faicons" alt="me"></img>
-                <img src={react} className="faicons" alt="me"></img>
-                <img src={jsicon} className="faicons" alt="me"></img>
-                <img src={css} className="faicons" alt="me"></img>
-                <img src={spotify} className="faicons" alt="me"></img>
-              </a>
+            <div className="slideContainer">
+              <div className="caraBox">
+                <img className="kodflixImg" src={stock} alt="kodflix"></img>
+                <div className="ProjTitle">
+                  Spotify Siftr
+                </div>
+                <a className="texty" href="https://github.com/vflorrez1/spotify-siftr" target="_black">
+                  <img src={github} className="faicons" alt="me"></img>
+                  <img src={react} className="faicons" alt="me"></img>
+                  <img src={jsicon} className="faicons" alt="me"></img>
+                  <img src={css} className="faicons" alt="me"></img>
+                  <img src={spotify} className="faicons" alt="me"></img>
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="slideContainer">
-            <div className="caraBox">
-              <img className="kodflixImg" src={stock2} alt="kodflix"></img>
-              <a className="texty" href="https://github.com/vflorrez1/" target="_black">
-                <h2 className="iconText">More to come on</h2>
-                <img src={github} className="faicons" alt="me"></img>
-              </a>
+            <div className="slideContainer">
+              <div className="caraBox">
+                <img className="kodflixImg" src={stock2} alt="kodflix"></img>
+                <div className="ProjTitle">
+                  More to come
+                </div>
+                <a className="texty" href="https://github.com/vflorrez1/" target="_black">
+                  <img src={github} className="faicons" alt="me"></img>
+                </a>
+              </div>
             </div>
-          </div>
-        </Slider>
+          </Slider>
+        </div>
       </div>
     );
   }

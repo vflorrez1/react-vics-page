@@ -80,6 +80,7 @@ body {
   border-style: double none none none;
   overflow: hidden;
 }
+
 .bot{
   flex:1;
 }

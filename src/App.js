@@ -8,7 +8,7 @@ import Projects from './Projects.js';
 import Particless from './particles';
 import Loader from './loader';
 import SimpleSlider from './carasel.js';
-import ReactFullpage from '@fullpage/react-fullpage';
+import Contact from './contact.js'
 
 
 
@@ -23,6 +23,7 @@ class App extends Component {
         </div>
         <Route exact path="/" component={Particless} />
         <SimpleSlider/>
+        <Contact/>
         <Route exact path="/projects" component={SimpleSlider} />
         <Route exact path="/cv" component={Cv} />
         <Route exact path="/hobbies" component={Hobbies} />
