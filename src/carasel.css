@@ -10,6 +10,7 @@
 .caraTitle {
     color: #333;
     font-size: 4vw;
+    padding: 2%;
 }
 .carouselContainer {
     margin: 0 auto;
@@ -36,6 +37,9 @@
     height: 40%;
     width: 100%;
  }
+ .ProjTitle:hover {
+     opacity: 0.5;;
+ }
 
  .texty {
     top: 40%;
@@ -57,6 +61,7 @@
      width: 20%;
      height: auto;
  }
+ .faicons:hover {opacity: 0.5}
 
 .caraBox {
     box-align: center;

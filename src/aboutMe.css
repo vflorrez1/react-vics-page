@@ -1,0 +1,24 @@
+.infoContainer {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .infoContainer {
+      display: block;
+    }
+  }
+
+.infoHeader {
+    font-size: 5vh;
+    padding: 2%;
+}
+
+.infoCol {
+  flex: 1;
+}
+
+.infoText {
+    font-size: 3vh;
+    padding: 3%;
+}
+
+

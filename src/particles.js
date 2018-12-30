@@ -124,30 +124,31 @@ export default class Particless extends Component {
     return (
       <div className="firstPage">
         <div className="firstPageBox">
-        {/* <Animated animationIn="fadeInDownBig" animationOut="fadeIn" isVisible={true}> */}
           <div className="name">
             <h1>Victor Florez</h1>
           </div>
-        {/* </Animated> */}
-        <div className="navFloat">
-          <div class="topnavv">
-            <Link to="/">Home</Link>
-            <Link to="/cv">CV</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="#">Contact</Link>
+          <div className="navFloat">
+            <div class="topnavv">
+              <Link to="/">Home</Link>
+              <Link to="/cv">CV</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="#">Contact</Link>
+            </div>
           </div>
-        </div>
-        {/* <Animated animationIn="fadeInDownBig" animationOut="fadeIn" isVisible={true}>
-          */}<div className="devyy"> 
+          <div className="devyy">
             <h1>Javascript Developer</h1>
           </div>
-        {/* // </Animated> */}
-        <Particles
-          params={particleOpt}
-        />
-        
+          <div className ="particleDiv">
+          <Particles
+            params={particleOpt}
+          />
+          <div className= "bottomButton">
+          <FontAwesomeIcon  icon={faAngleDown} size="4x" />
+          </div>
+          
+          </div>
+
         </div>
-        <FontAwesomeIcon icon={faAngleDown} size="4x" />
       </div>
     );
   };
