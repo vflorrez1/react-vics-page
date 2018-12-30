@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1bb027109345a90a9eab1e929d8669c2",
-    "url": "/react-vics-page/static/media/githubIcon.1bb02710.svg"
+    "revision": "09af709ad172fb7e1f64372a953128ed",
+    "url": "/react-vics-page/static/media/cc.09af709a.jpg"
   },
   {
-    "revision": "b22003c795710ec1bf04",
-    "url": "/react-vics-page/static/css/main.a1f455f5.chunk.css"
+    "revision": "aeb7a132219d7effe042",
+    "url": "/react-vics-page/static/css/main.81950105.chunk.css"
   },
   {
-    "revision": "12fe70d79ccb18fb5e07",
-    "url": "/react-vics-page/static/js/1.12fe70d7.chunk.js"
+    "revision": "4e7ef6a1f2928ca5f4dc",
+    "url": "/react-vics-page/static/js/1.4e7ef6a1.chunk.js"
   },
   {
     "revision": "3914ffd3abf8740d1c3e",
@@ -18,6 +18,14 @@ self.__precacheManifest = [
   {
     "revision": "088590cb32a0f9fe8996ce43e549403a",
     "url": "/react-vics-page/static/media/github-logo.088590cb.svg"
+  },
+  {
+    "revision": "27695e0730a7fbf593ffbf5d8749024b",
+    "url": "/react-vics-page/static/media/whatsappPhone.27695e07.svg"
+  },
+  {
+    "revision": "5b835c771a4e4988fde3a0758e0517e4",
+    "url": "/react-vics-page/static/media/emailIcon.5b835c77.svg"
   },
   {
     "revision": "d0f2962d1061cbc991319ecbf02c8357",
@@ -32,16 +40,8 @@ self.__precacheManifest = [
     "url": "/react-vics-page/static/media/css3Icon.fef17dc1.svg"
   },
   {
-    "revision": "8aae7537724cd0e84a9f28bf3d47c2e0",
-    "url": "/react-vics-page/static/media/robe.8aae7537.jpg"
-  },
-  {
-    "revision": "09af709ad172fb7e1f64372a953128ed",
-    "url": "/react-vics-page/static/media/cc.09af709a.jpg"
-  },
-  {
-    "revision": "b22003c795710ec1bf04",
-    "url": "/react-vics-page/static/js/main.b22003c7.chunk.js"
+    "revision": "aeb7a132219d7effe042",
+    "url": "/react-vics-page/static/js/main.aeb7a132.chunk.js"
   },
   {
     "revision": "6c91d30b0bdc994452a8dfc9034db9fb",
@@ -64,14 +64,6 @@ self.__precacheManifest = [
     "url": "/react-vics-page/static/media/spotify.40927dd1.svg"
   },
   {
-    "revision": "27695e0730a7fbf593ffbf5d8749024b",
-    "url": "/react-vics-page/static/media/whatsappPhone.27695e07.svg"
-  },
-  {
-    "revision": "5b835c771a4e4988fde3a0758e0517e4",
-    "url": "/react-vics-page/static/media/emailIcon.5b835c77.svg"
-  },
-  {
     "revision": "06c38e601a7781e47ddc86de0426e3aa",
     "url": "/react-vics-page/static/media/facebookIcon.06c38e60.svg"
   },
@@ -80,7 +72,15 @@ self.__precacheManifest = [
     "url": "/react-vics-page/static/media/linkedIcon.5b238434.svg"
   },
   {
-    "revision": "7979b9eb826941a61e95d43483b6bd69",
+    "revision": "98db7f6c5820d35c473e799a8e8c7aed",
+    "url": "/react-vics-page/static/media/githubIcon.98db7f6c.svg"
+  },
+  {
+    "revision": "8aae7537724cd0e84a9f28bf3d47c2e0",
+    "url": "/react-vics-page/static/media/robe.8aae7537.jpg"
+  },
+  {
+    "revision": "62e5772f190c6fc3d11f3f6177ef0d0a",
     "url": "/react-vics-page/index.html"
   }
 ];
